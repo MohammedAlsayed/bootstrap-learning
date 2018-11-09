@@ -41,6 +41,8 @@
     
     --font-family-serif: Merriweather, serif;
     --gray-dark: #404040;
+    --light-blue: #e1f7f5;
+    --purple: #533777;
     
     --color-text: var(--gray-dark);
     --font-family-text: var(--font-family-serif)
@@ -79,6 +81,21 @@ body{
     font-size: 1.2em;   /* relative to the size of the container em*/
 }
 
+#page-multicolumn{
+    background-color: var(--light-blue);
+}
+
+.page-section-header .page-section-title{
+    font-size: 4em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+    color: var(--purple)
+}
+
+.page-section-header .page-section-text{
+    font-size: 1.2em;
+    font-weight: 200;
+}
 
 .layout-social .layout-icon{
     font-size: 2em;
