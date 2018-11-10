@@ -64,6 +64,20 @@
     height: 50px;
 }
 
+@keyframes fademein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.fademein {
+    animation-name: fademein;
+    animation-duration: 2s;
+}
+
 body{
     
     font-family: var(--font-family-text);
